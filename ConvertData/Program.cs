@@ -15,22 +15,40 @@ namespace ConvertData
             string strRemoved = @"\ConvertData\bin\Debug";
             dirname = dirname.Replace(strRemoved, "");
 
-            string csvFile= dirname + @"\data.csv";
+            string csvFile= dirname + @"\data.extensionWrong";// This line must be correct for the code to work as it should
 
-            var csvFileData = File
-                .ReadAllLines(csvFile)
-                .SkipWhile(line => string.IsNullOrWhiteSpace(line))
-                .Select((line, index) => line.Replace(",", "\t"))
-                .ToList();
 
-            string path = dirname + @"\fifa-tab.tsv";
+            /*
+             
+             The error happened on the line above because the file extension is wrong
+            
+             To resolve this error, a conditional is made below to check the csv File string:
+             
+             */
 
-            if (File.Exists(path))
+            if (!csvFile.Contains(@"\data.csv"))
             {
-                File.Delete(path);
+                Console.WriteLine("[ERROR] File not found");
             }
+            else
+            {
+                var csvFileData = File
+               .ReadAllLines(csvFile)
+               .SkipWhile(line => string.IsNullOrWhiteSpace(line))
+               .Select((line, index) => line.Replace(",", "\t"))
+               .ToList();
 
-            File.WriteAllLines(path, csvFileData);
+                string path = dirname + @"\fifa-tab.tsv";
+
+                if (File.Exists(path))
+                {
+                    File.Delete(path);
+                }
+
+                File.WriteAllLines(path, csvFileData);
+
+                
+            }
 
             Console.ReadKey();
 

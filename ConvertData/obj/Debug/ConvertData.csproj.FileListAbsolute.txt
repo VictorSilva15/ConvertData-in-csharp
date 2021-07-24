@@ -5,3 +5,10 @@ C:\Users\Cliente\Documents\Programação\Pirple-Atictivy\ConvertData\ConvertData
 C:\Users\Cliente\Documents\Programação\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.csproj.CoreCompileInputs.cache
 C:\Users\Cliente\Documents\Programação\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.exe
 C:\Users\Cliente\Documents\Programação\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.pdb
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\bin\Debug\ConvertData.exe.config
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\bin\Debug\ConvertData.exe
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\bin\Debug\ConvertData.pdb
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.csprojAssemblyReference.cache
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.csproj.CoreCompileInputs.cache
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.exe
+C:\Users\Cliente\Documents\Programacao\Pirple-Atictivy\ConvertData\ConvertData\obj\Debug\ConvertData.pdb
